@@ -1,0 +1,125 @@
+/*Spesification*/
+
+
+body{
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-family: 'Nunito Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #808080;
+}
+
+.Monserrat{
+	font-family: 'Montserrat', Arial, sans-serif;
+
+}
+
+.Nunito{
+	font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	color: #171717;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 1.875rem;	
+}
+
+p{
+	color: #808080;
+}
+
+/*header*/
+
+.wrapBackground{
+	background: url('../img/sc1.png') no-repeat center top 0%/100%;
+	
+}
+header{
+	height: 100vh; 
+}
+
+.header{
+	margin-top: 38px;
+}
+
+.header-menu{
+	padding: 0 99px;
+}
+
+.nav-link{
+	color: #171717;
+	font-size: 0.750rem;
+}
+
+.nav-link:hover{
+	color: #10c9c3;
+	font-size: 0.750rem;
+}
+
+.header__h1{
+	margin-left: -6px;
+	font-size: 2.375rem;
+}
+
+.header__offer{
+	margin: 40px 0px;
+	font-size: 1.125em;	
+}
+
+.header__button{
+	width: 180px;	
+	height: 53px;
+	background: #10c9c3;
+	padding-top: 15px;
+}
+
+.header__button_link{
+	color: #ffffff;
+	font-size: 0.750rem;
+}
+
+.header__button_link:hover{
+	color: #171717;
+	text-decoration: none;
+}
+
+.header__allOffer{
+	margin: 100px 25px 0px 0;
+	padding: 0 10px 90px 40px;
+}
+
+
+/*about us*/
+
+.aboutUs{
+	background: #fff;
+	/*margin: 100px 0 40px 0;*/
+	font-size: 1.875rem;
+}
+
+.aboutUs__text{
+	font-size: 1rem;
+}
+
+.boutUs__signature{
+	/*margin: 40px 0 100px 0;*/
+}
+
+/*skills*/
+.skills{
+	margin: 165px 0 0 0;
+	background: #f8f9f9;
+}
+
+.skills__data{
+	margin: 165px 0 0 0;
+	
+}
+
+.skills__img{
+	background: url('../img/01_OnePage.png') no-repeat center top 0%/100%;
+}
+
