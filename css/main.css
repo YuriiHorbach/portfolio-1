@@ -104,8 +104,9 @@ header{
 	font-size: 1rem;
 }
 
-.boutUs__signature{
+.aboutUs__signature{
 	/*margin: 40px 0 100px 0;*/
+	margin-bottom: 100px;
 }
 
 /*skills*/
@@ -124,7 +125,12 @@ header{
 }
 
 .skills__img{
-	background: url('../img/01_OnePage.png')  ;
+	/*background: url('../img/01_OnePage.png') no-repeat 84% 36%;*/
+	width: 102.8%;
+    background-image: url("../img/01_OnePage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .skill__max-width: {
