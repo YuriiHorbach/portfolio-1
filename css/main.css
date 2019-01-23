@@ -109,23 +109,26 @@ header{
 }
 
 /*skills*/
-.skills{
-	margin: 165px 0 0 0;
+.skills_bg{
 	background: #f8f9f9;
 }
 
-.skills__data{
+ .skills__data{
 	margin: 110px 0 0 0;
 	padding:  0 0 0 80px;
-	
-}
+
+} 
 
 .data__header{
 	margin-bottom: 40px;
 }
 
 .skills__img{
-	/*background: url('../img/01_OnePage.png') no-repeat ;*/
+	background: url('../img/01_OnePage.png')  ;
+}
+
+.skill__max-width: {
+	max-width: 100% !important;
 }
 
 .data__set{
