@@ -10,7 +10,7 @@ body{
 
 .Monserrat{
 	font-family: 'Montserrat', Arial, sans-serif;
-
+	font-weight: 700;
 }
 
 .Nunito{
@@ -115,8 +115,8 @@ header{
 }
 
 .skills__data{
-	margin: 165px 0 0 0;
-	padding:  0 0 0 100px;
+	margin: 110px 0 0 0;
+	padding:  0 0 0 80px;
 	
 }
 
@@ -125,14 +125,82 @@ header{
 }
 
 .skills__img{
-	background: url('../img/01_OnePage.png') no-repeat center top 0%/100%;
+	/*background: url('../img/01_OnePage.png') no-repeat ;*/
 }
 
 .data__set{
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.data__item{
+	margin: 0 0 30px 0;
+}
+
+.data__set_text{
 	color:#000;
 	font-size: 0.750rem;
+	margin: 0 0 0 0;
+}
 
+.data__set_line{
+}
+
+.data__item{
+	list-style-type: none;
+}
+
+/*achievements*/
+
+.achievements__bg{
+	background: #10c9c3;
+}
+
+.achievements{
+	height: 240px;
+	background: #10c9c3;
+	list-style-type: none;
+	padding: 0 0 0 85px;
+}
+
+.achievements__item_project{
+	background: url(../img/pe-7s-portfolio.png) no-repeat left center;
+}
+
+.achievements__item_clock{
+	background: url(../img/pe-7s-clock.png) no-repeat left center;
+}
+
+.achievements__item_star{
+	background: url(../img/pe-7s-star.png) no-repeat left center;
+}
+
+.achievements__item_like{
+	background: url(../img/pe-7s-like.png) no-repeat left center;
 }
 
 
 
+.achievements__item{
+   /* width: 45%;*/
+   /* padding-left: 100px;
+    margin-bottom: 61px;*/
+}
+
+.achievements__title{
+	text-transform: uppercase;
+	font-size: 1.125rem;
+	color: #000;
+	font-weight: 800;
+	margin-bottom: 6px;
+	padding-left: 70px;
+	color: #fff;
+}
+
+.achievements__text{
+
+	font-size: 0.750rem;
+	padding-left: 70px;
+	margin: 0 0 -4px 0;
+	color: #fff;
+}
