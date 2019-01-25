@@ -116,7 +116,7 @@ header{
 
  .skills__data{
 	margin: 110px 0 0 0;
-	padding:  0 0 0 80px;
+	padding:  0 0 0 25px;
 
 } 
 
@@ -126,7 +126,7 @@ header{
 
 .skills__img{
 	/*background: url('../img/01_OnePage.png') no-repeat 84% 36%;*/
-	width: 102.8%;
+	/*width: 102.8%;*/
     background-image: url("../img/01_OnePage.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -212,4 +212,33 @@ header{
 	padding-left: 70px;
 	margin: 0 0 -4px 0;
 	color: #fff;
+}
+
+/*pictures*/
+
+.pic__wrapper{
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.pic__pic{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.pic__img{
+	background: url('../img/square1.png') no-repeat center top ;
+	display: block;
+	width: 100%;
+  	height: auto;
+  }	
+
+
+.pic__img:hover{
+	 opacity: 0.5;
+	 /*border: 1px solid red;*/
+	 background: url('../img/screenCover2.png') no-repeat 50% 50%;
 }
