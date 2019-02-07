@@ -228,17 +228,50 @@ header{
 	width: 100%;
 	height: auto;
 }
-
+/*
 .pic__img{
+	position: relative;
+	
 	background: url('../img/square1.png') no-repeat center top ;
 	display: block;
 	width: 100%;
   	height: auto;
   }	
+*/
 
-
-.pic__img:hover{
+/*.pic__img:hover{
 	 opacity: 0.5;
-	 /*border: 1px solid red;*/
+	 
 	 background: url('../img/screenCover2.png') no-repeat 50% 50%;
+}
+*/
+
+.works__item{
+    position: relative;
+		width: 100%;
+		/*height: 300px;*/
+		/*float: left;*/
+		/*margin-right: 17px;*/
+		/*overflow: hidden;*/
+}
+
+.works__text {
+    position: absolute;
+    background: rgba( 0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    padding: 110px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: none;
+}
+
+.works__item:hover .works__text{
+	 display: block;
 }
