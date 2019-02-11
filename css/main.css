@@ -275,3 +275,24 @@ header{
 .works__item:hover .works__text{
 	 display: block;
 }
+
+.pic__text{
+	font-size: 0.750rem;
+	margin: 45px 0 45px 0;
+	letter-spacing: 2px;
+}
+
+.pic__link{
+	text-decoration: none !important;
+}
+
+.ourWork__head{
+	margin: 60px 0 0 0;
+}
+
+.ourWork__text{
+	margin: 40px 0 0 0;
+	color: #8e8e8e;
+}
+
+
