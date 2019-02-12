@@ -169,7 +169,7 @@ header{
 	height: 240px;
 	background: #10c9c3;
 	list-style-type: none;
-	padding: 0 0 0 85px;
+	padding: 0 0 0 35px;
 }
 
 .achievements__item_project{
@@ -295,6 +295,98 @@ header{
 	color: #8e8e8e;
 }
 
+.ourWork__button {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: url(../img/playIcon.png);
+	width: 119px;
+	height: 119px;
+	z-index: 1;
+	margin-left: -60px;
+	margin-top: -60px;
+	border-style: none;
+}
+
+/*.ourWork__button_img{
+	position: absolute;
+	width: 100%;
+height: auto;
+}*/
+
+#video{
+	padding: 0 98px;
+	//margin-bottom: 100px;
+}
+
+/*--------skills__item -------*/
+
+.skills__block{
+	margin-top: 100px;
+}
+
+.skills{
+	/*margin: 100px 0;*/
+	background: #f5f5f5;
+	padding: 30px 30px;
+}
+
+.skills__mod_1{
+	padding-top: 100px;
+}
+
+.skills__item {
+	color: #000;
+	margin: 0 15px;
+}
+
+.item__mod1{
+	background: url(../img/diamond.png) no-repeat 50% 0%;
+}
+
+.item__mod2{
+	background: url(../img/arc.png) no-repeat 50% 0%;
+}
+
+.item__mod3{
+	background: url(../img/phone.png) no-repeat 50% 0%;
+}
+
+.item__mod4{
+	background: url(../img/joy.png) no-repeat 50% 0%;
+}
+
+.item__mod5{
+	background: url(../img/plane.png) no-repeat 50% 0%;
+}
+
+.item__mod6{
+	background: url(../img/star2.png) no-repeat 50% 0%;
+}
+
+.item__mod7{
+	background: url(../img/magicWand.png) no-repeat 50% 0%;
+}
+
+.item__mod8{
+	background: url(../img/paintBucket.png) no-repeat 50% 0%;
+}
 
 
+
+.skills__title{
+	font-size: 0.750rem;
+	margin-bottom: 19px;
+	padding-top: 60px;
+	letter-spacing: 0.7px;
+
+}
+
+
+.skills__text{
+	color: #787878;
+	font-size: 0.9rem;
+	line-height: 115%;
+}
 
