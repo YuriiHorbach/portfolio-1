@@ -390,3 +390,30 @@ height: auto;
 	line-height: 115%;
 }
 
+/*---quotes---*/
+
+.quotes{
+	background: #10c9c3;
+	color: #fff;
+}
+
+.quote__block{
+	margin: 180px 0 0 0;
+}
+
+.quote__text{
+
+	font-size: 1.500rem;
+	letter-spacing: 1px;
+}
+
+.quote__author{
+	margin: 24px 0 0 0;
+	font-size: 0.750rem;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+.quote__sliderMark{
+	margin: 124px;
+}
