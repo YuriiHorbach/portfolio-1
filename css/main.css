@@ -417,3 +417,7 @@ height: auto;
 .quote__sliderMark{
 	margin: 124px;
 }
+
+.slick-arrow{
+	display: none;
+}
