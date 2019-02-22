@@ -418,6 +418,49 @@ height: auto;
 	margin: 124px;
 }
 
-.slick-arrow{
-	display: none;
+.slick-dots{
+	/*position: absolute;*/
+bottom: -25px;
+display: block;
+width: 100%;
+padding: 0;
+margin: 0;
+list-style: none;
+text-align: center;
+}
+
+.slick-active{
+}
+
+
+
+
+.slick-dots li button{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px dashed #fff;
+	margin-right: 50px;
+	border-radius: 60%;
+	text-indent: -9999px;
+	background: #b0e8e6;
+}
+
+
+
+.slick-dots li button:hover, .slick-dots li button:focus {
+    background: #fff;
+    outline: none;
+}
+
+.slick-dots li {
+
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+
 }
