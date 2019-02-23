@@ -428,6 +428,15 @@ height: auto;
 	/*margin: 65px 0 0 0;*/
 }
 
+/*form*/
+
+.form{
+	background: #f5f5f5;
+}
+
+.form__head{
+	padding: 100px 0 0 0;
+}
 
 
 
