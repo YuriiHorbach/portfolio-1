@@ -402,13 +402,13 @@ height: auto;
 }
 
 .quote__text{
-
 	font-size: 1.500rem;
 	letter-spacing: 1px;
+	padding: 175px 0 0 0;
 }
 
 .quote__author{
-	margin: 24px 0 0 0;
+	margin: 40px 0 110px 0;
 	font-size: 0.750rem;
 	letter-spacing: 2px;
 	font-weight: 400;
@@ -418,16 +418,6 @@ height: auto;
 	margin: 124px;
 }
 
-.slick-dots{
-	/*position: absolute;*/
-bottom: -25px;
-display: block;
-width: 100%;
-padding: 0;
-margin: 0;
-list-style: none;
-text-align: center;
-}
 
 .slick-active{
 }
@@ -435,32 +425,7 @@ text-align: center;
 
 
 
-.slick-dots li button{
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	border: 1px dashed #fff;
-	margin-right: 50px;
-	border-radius: 60%;
-	text-indent: -9999px;
-	background: #b0e8e6;
-}
 
 
 
-.slick-dots li button:hover, .slick-dots li button:focus {
-    background: #fff;
-    outline: none;
-}
 
-.slick-dots li {
-
-    position: relative;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    padding: 0;
-    cursor: pointer;
-
-}
