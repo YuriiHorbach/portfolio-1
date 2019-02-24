@@ -74,6 +74,7 @@ header{
 	height: 53px;
 	background: #10c9c3;
 	padding-top: 15px;
+	cursor: pointer;
 }
 
 .header__button_link{
@@ -432,11 +433,65 @@ height: auto;
 
 .form{
 	background: #f5f5f5;
+	padding:  0 0 100px 0;
+}
+
+.form__widt{
+	width: 670px;
 }
 
 .form__head{
 	padding: 100px 0 0 0;
 }
+
+.form__button {
+    width: 180px; 
+    height: 53px; 
+    color: #fff;
+    background: #10c9c3 ;
+    border: none  !important;
+    font-size: 0.750rem !important;
+    cursor: pointer;
+    margin: 30px 0 0 0;
+}
+
+.form__button:hover {
+    border: none  !important;
+    color: #171717;
+	text-decoration: none;
+}
+
+
+/*footer*/
+
+#footer{
+	
+}
+.footer{
+	padding: 100px 0 0 0;
+	background: #141414;
+}
+
+
+.footer__head{
+	font-size: 1.125rem;
+	font-weight: 700;
+	color: #fff !important;
+}
+
+.footer_fz{
+	font-size: 0.938rem;
+}
+
+.footer__1tMenu a, .footer__2dMenu a, .footer__3dMenu a{
+	color: #808080;
+}
+
+.footer__1tMenu a:hover, .footer__2dMenu a:hover, .footer__3dMenu a:hover{
+	text-decoration: none;
+	color: #fff;	
+}
+
 
 
 
